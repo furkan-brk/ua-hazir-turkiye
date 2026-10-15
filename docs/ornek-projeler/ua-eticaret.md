@@ -4,39 +4,35 @@ title: "UA-uyumlu e-ticaret mağazası"
 
 # UA-uyumlu e-ticaret mağazası
 
-**Kategori:** Web ve E-ticaret · **Zorluk:** Orta
+<div class="concept-meta"><span class="badge cat">Web ve E-ticaret</span> <span class="badge lv-o">Orta</span></div>
 
-!!! tip "Özet"
-    WooCommerce veya benzeri bir mağazanın üyelik, sipariş ve fatura akışlarını Türkçe karakterli e-posta ve alan adlarıyla çalışır hale getirmek.
+<div class="concept-lead" markdown>
+WooCommerce veya benzeri bir mağazanın üyelik, sipariş ve fatura akışlarını Türkçe karakterli e-posta ve alan adlarıyla çalışır hale getirmek.
+</div>
 
-## Kimin işine yarar?
+**Kimin işine yarar?** Küçük işletmeler ve mağaza sahipleri; müşterisi `şükrü@örnek.com` gibi adres kullanan herkes.
 
-Küçük işletmeler ve mağaza sahipleri; müşterisi `şükrü@örnek.com` gibi adres kullanan herkes.
+=== "UA dokunma noktaları"
 
-## UA dokunma noktaları
+    - Kayıt ve ödeme formlarındaki e-posta doğrulaması
+    - Sipariş onayı ve kargo bildirimi e-postaları
+    - Müşteri listesi dışa aktarma (CSV) ve fatura PDF'i
+    - Kupon ve bülten abonelikleri
 
-- Kayıt ve ödeme formlarındaki e-posta doğrulaması
-- Sipariş onayı ve kargo bildirimi e-postaları
-- Müşteri listesi dışa aktarma (CSV) ve fatura PDF'i
-- Kupon ve bülten abonelikleri
+=== "Türkçe test senaryoları"
 
-## Türkçe test senaryoları
+    - [ ] `şükrü@örnek.com` ile kayıt ol ve sipariş ver
+    - [ ] `çiçek.com.tr` alan adlı kurumsal müşteri ekle
+    - [ ] Şifre sıfırlama e-postasının ulaştığını doğrula
 
-- [ ] `şükrü@örnek.com` ile kayıt ol ve sipariş ver
-- [ ] `çiçek.com.tr` alan adlı kurumsal müşteri ekle
-- [ ] Şifre sıfırlama e-postasının ulaştığını doğrula
+=== "Başarı ölçütü"
 
-## Önerilen teknoloji
+    - [ ] Kayıt, sipariş ve şifre sıfırlama akışları EAI adresiyle uçtan uca çalışır
+    - [ ] CSV ve PDF çıktılarında adres bozulmaz
 
-WordPress + WooCommerce, PHP, MySQL (utf8mb4)
+**Önerilen teknoloji:** WordPress + WooCommerce, PHP, MySQL (utf8mb4)
 
-## Başarı ölçütü
-
-- [ ] Kayıt, sipariş ve şifre sıfırlama akışları EAI adresiyle uçtan uca çalışır
-- [ ] CSV ve PDF çıktılarında adres bozulmaz
-
----
-
-Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
+!!! note ""
+    Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
 
 [← Örnek projeler](index.md)

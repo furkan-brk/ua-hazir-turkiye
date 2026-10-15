@@ -6,14 +6,38 @@ title: Schedule
 
 **From call to final takes about 8 weeks, 4 of them for adaptation.** The dates below are examples, planned to fit ICANN's 25 March – 30 May event window.
 
-| Phase | Start | End | What happens |
-| --- | --- | --- | --- |
-| Call and applications | 29 March 2027 | 11 April 2027 | Projects apply |
-| Screening | 12 April | 18 April | Eligibility check, acceptance notice |
-| Kick-off and training | 19 April | 20 April | ICANN technical training, email system introduction |
-| Adaptation | 19 April | 16 May | Teams fix their projects; weekly mentor hours |
-| UA verification | 17 May | 23 May | Technical committee test, one fix allowed |
-| Final day | 29 May | 29 May | Awareness session, demos, jury, awards |
+<div class="tl" markdown>
+<div class="tl-item" markdown>
+<time>29 March – 11 April 2027</time>
+<b>Call and applications</b>
+<p>Projects apply.</p>
+</div>
+<div class="tl-item" markdown>
+<time>12 – 18 April</time>
+<b>Screening</b>
+<p>Eligibility check and acceptance notice.</p>
+</div>
+<div class="tl-item" markdown>
+<time>19 – 20 April</time>
+<b>Kick-off and training</b>
+<p>ICANN technical training and email system introduction.</p>
+</div>
+<div class="tl-item" markdown>
+<time>19 April – 16 May</time>
+<b>Adaptation</b>
+<p>Teams fix their projects; weekly mentor hours.</p>
+</div>
+<div class="tl-item" markdown>
+<time>17 – 23 May</time>
+<b>UA verification</b>
+<p>Technical committee test; one fix allowed.</p>
+</div>
+<div class="tl-item is-final" markdown>
+<time>29 May</time>
+<b>Final day</b>
+<p>Awareness session, demos, jury and awards.</p>
+</div>
+</div>
 
 !!! note "Dates may change"
     Final dates will be announced after ICANN confirmation.

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta name="theme-color" content="#0F2A47">
+{% endblock %}
+
+{% block announce %}
+  {% if config.theme.language == "en" %}
+    The call opens soon. Dates depend on ICANN confirmation.
+    <a href="{{ 'katilim/' | url }}">Participation details</a>
+  {% else %}
+    Çağrı yakında açılıyor. Tarihler ICANN onayına bağlıdır.
+    <a href="{{ 'katilim/' | url }}">Katılım ayrıntıları</a>
+  {% endif %}
+{% endblock %}

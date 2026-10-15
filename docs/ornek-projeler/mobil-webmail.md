@@ -4,39 +4,35 @@ title: "Mobil e-posta ve kişi rehberi uygulaması"
 
 # Mobil e-posta ve kişi rehberi uygulaması
 
-**Kategori:** Mobil · **Zorluk:** İleri
+<div class="concept-meta"><span class="badge cat">Mobil</span> <span class="badge lv-i">İleri</span></div>
 
-!!! tip "Özet"
-    Unicode e-posta adreslerini gönderen, alan ve kişi rehberinde saklayan bir mobil e-posta uygulaması.
+<div class="concept-lead" markdown>
+Unicode e-posta adreslerini gönderen, alan ve kişi rehberinde saklayan bir mobil e-posta uygulaması.
+</div>
 
-## Kimin işine yarar?
+**Kimin işine yarar?** E-posta istemcisi geliştiren ekipler ve açık kaynak topluluğu.
 
-E-posta istemcisi geliştiren ekipler ve açık kaynak topluluğu.
+=== "UA dokunma noktaları"
 
-## UA dokunma noktaları
+    - SMTPUTF8 ile gönderim
+    - Başlıklar ve gövdede Unicode adres ayrıştırma
+    - Kişi rehberi senkronizasyonu
+    - Adres arama ve otomatik tamamlama
 
-- SMTPUTF8 ile gönderim
-- Başlıklar ve gövdede Unicode adres ayrıştırma
-- Kişi rehberi senkronizasyonu
-- Adres arama ve otomatik tamamlama
+=== "Türkçe test senaryoları"
 
-## Türkçe test senaryoları
+    - [ ] `şükrü@örnek.com` adresine e-posta gönder
+    - [ ] `çiçek.com.tr` alan adlı kişiyi rehbere ekle
+    - [ ] Otomatik tamamlamada `şü` yazınca kişiyi bul
 
-- [ ] `şükrü@örnek.com` adresine e-posta gönder
-- [ ] `çiçek.com.tr` alan adlı kişiyi rehbere ekle
-- [ ] Otomatik tamamlamada `şü` yazınca kişiyi bul
+=== "Başarı ölçütü"
 
-## Önerilen teknoloji
+    - [ ] Gönderme ve alma EAI sunucusuyla çalışır
+    - [ ] Rehber ve arama Türkçe karakterleri doğru işler
 
-Kotlin/Swift veya Flutter, IMAP/SMTP kütüphaneleri
+**Önerilen teknoloji:** Kotlin/Swift veya Flutter, IMAP/SMTP kütüphaneleri
 
-## Başarı ölçütü
-
-- [ ] Gönderme ve alma EAI sunucusuyla çalışır
-- [ ] Rehber ve arama Türkçe karakterleri doğru işler
-
----
-
-Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
+!!! note ""
+    Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
 
 [← Örnek projeler](index.md)

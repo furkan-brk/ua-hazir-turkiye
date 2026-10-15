@@ -4,39 +4,35 @@ title: "Destek bileti ve CRM sistemi"
 
 # Destek bileti ve CRM sistemi
 
-**Kategori:** E-posta Altyapısı · **Zorluk:** Orta
+<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span> <span class="badge lv-o">Orta</span></div>
 
-!!! tip "Özet"
-    E-postadan bilet açan destek sisteminin gelen ve giden e-posta akışlarını UA uyumlu yapmak.
+<div class="concept-lead" markdown>
+E-postadan bilet açan destek sisteminin gelen ve giden e-posta akışlarını UA uyumlu yapmak.
+</div>
 
-## Kimin işine yarar?
+**Kimin işine yarar?** Destek ekipleri ve osTicket benzeri sistemleri kullanan kurumlar.
 
-Destek ekipleri ve osTicket benzeri sistemleri kullanan kurumlar.
+=== "UA dokunma noktaları"
 
-## UA dokunma noktaları
+    - Gelen e-postadan bilet oluşturma
+    - Müşteri eşleştirme ve arama
+    - Yanıt e-postası ve konu satırı
+    - Raporlar ve dışa aktarma
 
-- Gelen e-postadan bilet oluşturma
-- Müşteri eşleştirme ve arama
-- Yanıt e-postası ve konu satırı
-- Raporlar ve dışa aktarma
+=== "Türkçe test senaryoları"
 
-## Türkçe test senaryoları
+    - [ ] `şükrü@örnek.com` adresinden destek e-postası gönder
+    - [ ] Aynı müşterinin ikinci talebini aynı kayda bağla
+    - [ ] Yanıtın doğru adrese gittiğini doğrula
 
-- [ ] `şükrü@örnek.com` adresinden destek e-postası gönder
-- [ ] Aynı müşterinin ikinci talebini aynı kayda bağla
-- [ ] Yanıtın doğru adrese gittiğini doğrula
+=== "Başarı ölçütü"
 
-## Önerilen teknoloji
+    - [ ] Gelen e-postadan bilet açılır ve yanıt EAI adresine ulaşır
+    - [ ] Müşteri eşleştirme Türkçe karakterlerle doğru çalışır
 
-PHP (osTicket) veya Python, IMAP polling, MySQL
+**Önerilen teknoloji:** PHP (osTicket) veya Python, IMAP polling, MySQL
 
-## Başarı ölçütü
-
-- [ ] Gelen e-postadan bilet açılır ve yanıt EAI adresine ulaşır
-- [ ] Müşteri eşleştirme Türkçe karakterlerle doğru çalışır
-
----
-
-Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
+!!! note ""
+    Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
 
 [← Örnek projeler](index.md)

@@ -20,11 +20,37 @@ Türkçe karakterler (`ç ğ ı İ ö ş ü`) üç ayrı yerde sorun çıkarır:
 
 Bir yazılım alan adı veya e-posta adresiyle karşılaşınca beş şeyi doğru yapmalıdır:
 
-1. **Kabul:** Giriş alanları adresi reddetmez.
-2. **Doğrulama:** Doğrulama kuralları (regex, kütüphane) Unicode, uzun ve yeni alan adı uzantılarını bilir.
-3. **Saklama:** Veritabanı ve loglar UTF-8 ile kayıpsız tutar.
-4. **İşleme:** A-label ve U-label dönüşümü (Punycode) ve harf dönüşümü doğru yapılır.
-5. **Gösterim:** Arayüz, e-posta ve belgelerde adres okunur halde görünür.
+<div class="step-cards" markdown>
+<div class="step-card" markdown>
+### Kabul
+Giriş alanları adresi reddetmez.
+</div>
+<div class="step-card" markdown>
+### Doğrulama
+Doğrulama kuralları (regex, kütüphane) Unicode, uzun ve yeni alan adı uzantılarını bilir.
+</div>
+<div class="step-card" markdown>
+### Saklama
+Veritabanı ve loglar UTF-8 ile kayıpsız tutar.
+</div>
+<div class="step-card" markdown>
+### İşleme
+A-label ve U-label dönüşümü (Punycode) ve harf dönüşümü doğru yapılır.
+</div>
+<div class="step-card" markdown>
+### Gösterim
+Arayüz, e-posta ve belgelerde adres okunur halde görünür.
+</div>
+</div>
+
+```mermaid
+flowchart LR
+    A[Kullanıcı adresi girer] --> B[Kabul]
+    B --> C[Doğrulama]
+    C --> D[Saklama]
+    D --> E[İşleme]
+    E --> F[Gösterim]
+```
 
 ## Kısa sözlük
 

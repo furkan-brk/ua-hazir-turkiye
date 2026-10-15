@@ -4,39 +4,35 @@ title: "UA Denetçi: form denetleyen tarayıcı eklentisi"
 
 # UA Denetçi: form denetleyen tarayıcı eklentisi
 
-**Kategori:** Geliştirici Araçları · **Zorluk:** İleri
+<div class="concept-meta"><span class="badge cat">Geliştirici Araçları</span> <span class="badge lv-i">İleri</span></div>
 
-!!! tip "Özet"
-    Bir web sayfasındaki e-posta ve alan adı alanlarını Türkçe karakterli test adresleriyle deneyip sonuç raporu veren tarayıcı eklentisi.
+<div class="concept-lead" markdown>
+Bir web sayfasındaki e-posta ve alan adı alanlarını Türkçe karakterli test adresleriyle deneyip sonuç raporu veren tarayıcı eklentisi.
+</div>
 
-## Kimin işine yarar?
+**Kimin işine yarar?** Geliştiriciler, test mühendisleri ve UA farkındalığı çalışmaları yapan topluluklar.
 
-Geliştiriciler, test mühendisleri ve UA farkındalığı çalışmaları yapan topluluklar.
+=== "UA dokunma noktaları"
 
-## UA dokunma noktaları
+    - Formlara test adresi girip yanıtı gözlemleme
+    - Doğrulama hatası ve reddetme tespiti
+    - Rapor çıktısı (JSON ve okunur özet)
+    - Bilinen sorunlu kalıpların uyarısı
 
-- Formlara test adresi girip yanıtı gözlemleme
-- Doğrulama hatası ve reddetme tespiti
-- Rapor çıktısı (JSON ve okunur özet)
-- Bilinen sorunlu kalıpların uyarısı
+=== "Türkçe test senaryoları"
 
-## Türkçe test senaryoları
+    - [ ] Test adresini kayıt formuna gir ve reddedilirse raporla
+    - [ ] Aynı sayfayı `çiçek.com.tr` alanıyla dene
+    - [ ] Raporu JSON olarak dışa aktar
 
-- [ ] Test adresini kayıt formuna gir ve reddedilirse raporla
-- [ ] Aynı sayfayı `çiçek.com.tr` alanıyla dene
-- [ ] Raporu JSON olarak dışa aktar
+=== "Başarı ölçütü"
 
-## Önerilen teknoloji
+    - [ ] Eklenti en az üç yaygın form türünde ret davranışını yakalar
+    - [ ] Rapor, kriter listesindeki Kabul maddelerine bağlanır
 
-Tarayıcı eklentisi (Manifest V3), TypeScript
+**Önerilen teknoloji:** Tarayıcı eklentisi (Manifest V3), TypeScript
 
-## Başarı ölçütü
-
-- [ ] Eklenti en az üç yaygın form türünde ret davranışını yakalar
-- [ ] Rapor, kriter listesindeki Kabul maddelerine bağlanır
-
----
-
-Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
+!!! note ""
+    Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
 
 [← Örnek projeler](index.md)

@@ -4,39 +4,35 @@ title: "Mobile email and contacts app"
 
 # Mobile email and contacts app
 
-**Category:** Mobile · **Difficulty:** Advanced
+<div class="concept-meta"><span class="badge cat">Mobile</span> <span class="badge lv-i">Advanced</span></div>
 
-!!! tip "Summary"
-    A mobile email app that sends and receives Unicode email addresses and stores them in the contact book.
+<div class="concept-lead" markdown>
+A mobile email app that sends and receives Unicode email addresses and stores them in the contact book.
+</div>
 
-## Who is it for?
+**Who is it for?** Teams building email clients and the open-source community.
 
-Teams building email clients and the open-source community.
+=== "UA touchpoints"
 
-## UA touchpoints
+    - Sending with SMTPUTF8
+    - Parsing Unicode addresses in headers and body
+    - Contact book sync
+    - Address search and autocomplete
 
-- Sending with SMTPUTF8
-- Parsing Unicode addresses in headers and body
-- Contact book sync
-- Address search and autocomplete
+=== "Turkish test scenarios"
 
-## Turkish test scenarios
+    - [ ] Send an email to `şükrü@örnek.com`
+    - [ ] Add a contact on `çiçek.com.tr`
+    - [ ] Find the contact by typing `şü` in autocomplete
 
-- [ ] Send an email to `şükrü@örnek.com`
-- [ ] Add a contact on `çiçek.com.tr`
-- [ ] Find the contact by typing `şü` in autocomplete
+=== "Success criteria"
 
-## Suggested technology
+    - [ ] Sending and receiving work with the EAI server
+    - [ ] Contacts and search handle Turkish characters correctly
 
-Kotlin/Swift or Flutter, IMAP/SMTP libraries
+**Suggested technology:** Kotlin/Swift or Flutter, IMAP/SMTP libraries
 
-## Success criteria
-
-- [ ] Sending and receiving work with the EAI server
-- [ ] Contacts and search handle Turkish characters correctly
-
----
-
-This page is an **example concept**; it is not required for applying. You can apply with your own project too.
+!!! note ""
+    This page is an **example concept**; it is not required for applying. You can apply with your own project too.
 
 [← Example projects](index.md)

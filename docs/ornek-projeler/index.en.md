@@ -1,109 +1,181 @@
 ---
-title: Example Projects
+title: "Example Projects"
 ---
 
 # Example Projects
 
 Looking for ideas? The 12 concepts below show the kinds of projects that suit UA adaptation. All are examples; you can apply with your own project too.
 
+<div class="filter-bar" role="group" aria-label="Filter example projects"><div class="group"><span>Category</span><button type="button" data-group="cat" data-filter="all" aria-pressed="true">All</button><button type="button" data-group="cat" data-filter="web" aria-pressed="false">Web and E-commerce</button><button type="button" data-group="cat" data-filter="pub" aria-pressed="false">Public Sector and Education</button><button type="button" data-group="cat" data-filter="mob" aria-pressed="false">Mobile</button><button type="button" data-group="cat" data-filter="mail" aria-pressed="false">Email Infrastructure</button><button type="button" data-group="cat" data-filter="dev" aria-pressed="false">Developer Tools</button></div><div class="group"><span>Difficulty</span><button type="button" data-group="lvl" data-filter="all" aria-pressed="true">All</button><button type="button" data-group="lvl" data-filter="b" aria-pressed="false">Beginner</button><button type="button" data-group="lvl" data-filter="o" aria-pressed="false">Intermediate</button><button type="button" data-group="lvl" data-filter="i" aria-pressed="false">Advanced</button></div></div>
+
+<div data-section markdown>
+
 ## Web and E-commerce
 
-<div class="grid cards" markdown>
+<div class="ccards" markdown>
 
-- :material-cart:{ .lg .middle } **[UA-ready online store](ua-eticaret.md)**
+<div class="ccard" data-cat="web" data-lvl="o" markdown>
+<span class="ico">:material-cart:</span>
 
-    Make the membership, order and invoice flows of a WooCommerce-style store work with email addresses and domains that use Turkish characters.
+**[UA-ready online store](ua-eticaret.md)**
 
-    <span class="badge">Intermediate</span>
+Make the membership, order and invoice flows of a WooCommerce-style store work with email addresses and domains that use Turkish characters.
 
-- :material-calendar-clock:{ .lg .middle } **[Appointment and booking system](ua-randevu.md)**
+<div class="meta"><span class="badge cat">Web and E-commerce</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
-    Make reminder emails and cancellation links of a clinic, salon or restaurant booking system UA-ready.
+<div class="ccard" data-cat="web" data-lvl="b" markdown>
+<span class="ico">:material-calendar-clock:</span>
 
-    <span class="badge">Beginner</span>
+**[Appointment and booking system](ua-randevu.md)**
+
+Make reminder emails and cancellation links of a clinic, salon or restaurant booking system UA-ready.
+
+<div class="meta"><span class="badge cat">Web and E-commerce</span> <span class="badge lv-b">Beginner</span></div>
+</div>
 
 </div>
+
+</div>
+
+<div data-section markdown>
 
 ## Public Sector and Education
 
-<div class="grid cards" markdown>
+<div class="ccards" markdown>
 
-- :material-city:{ .lg .middle } **[Municipality e-application form](belediye-basvuru.md)**
+<div class="ccard" data-cat="pub" data-lvl="o" markdown>
+<span class="ico">:material-city:</span>
 
-    Make a municipal or agency portal where citizens apply work smoothly with email addresses and domains that use Turkish characters.
+**[Municipality e-application form](belediye-basvuru.md)**
 
-    <span class="badge">Intermediate</span>
+Make a municipal or agency portal where citizens apply work smoothly with email addresses and domains that use Turkish characters.
 
-- :material-school:{ .lg .middle } **[Campus clubs and events platform](kampus-kulup.md)**
+<div class="meta"><span class="badge cat">Public Sector and Education</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
-    Make a platform where student clubs manage membership and event announcements UA-ready.
+<div class="ccard" data-cat="pub" data-lvl="b" markdown>
+<span class="ico">:material-school:</span>
 
-    <span class="badge">Beginner</span>
+**[Campus clubs and events platform](kampus-kulup.md)**
 
-- :material-account-group:{ .lg .middle } **[School-parent communication system](okul-veli.md)**
+Make a platform where student clubs manage membership and event announcements UA-ready.
 
-    Make the system where schools send announcements and grade notifications to parents UA-ready.
+<div class="meta"><span class="badge cat">Public Sector and Education</span> <span class="badge lv-b">Beginner</span></div>
+</div>
 
-    <span class="badge">Beginner</span>
+<div class="ccard" data-cat="pub" data-lvl="b" markdown>
+<span class="ico">:material-account-group:</span>
+
+**[School-parent communication system](okul-veli.md)**
+
+Make the system where schools send announcements and grade notifications to parents UA-ready.
+
+<div class="meta"><span class="badge cat">Public Sector and Education</span> <span class="badge lv-b">Beginner</span></div>
+</div>
 
 </div>
+
+</div>
+
+<div data-section markdown>
 
 ## Mobile
 
-<div class="grid cards" markdown>
+<div class="ccards" markdown>
 
-- :material-cellphone:{ .lg .middle } **[Mobile sign-up and email verification flow](mobil-kayit.md)**
+<div class="ccard" data-cat="mob" data-lvl="o" markdown>
+<span class="ico">:material-cellphone:</span>
 
-    Make the sign-up, login and email verification flow of a Flutter or React Native app work with Turkish-character addresses.
+**[Mobile sign-up and email verification flow](mobil-kayit.md)**
 
-    <span class="badge">Intermediate</span>
+Make the sign-up, login and email verification flow of a Flutter or React Native app work with Turkish-character addresses.
 
-- :material-email-outline:{ .lg .middle } **[Mobile email and contacts app](mobil-webmail.md)**
+<div class="meta"><span class="badge cat">Mobile</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
-    A mobile email app that sends and receives Unicode email addresses and stores them in the contact book.
+<div class="ccard" data-cat="mob" data-lvl="i" markdown>
+<span class="ico">:material-email-outline:</span>
 
-    <span class="badge">Advanced</span>
+**[Mobile email and contacts app](mobil-webmail.md)**
+
+A mobile email app that sends and receives Unicode email addresses and stores them in the contact book.
+
+<div class="meta"><span class="badge cat">Mobile</span> <span class="badge lv-i">Advanced</span></div>
+</div>
 
 </div>
+
+</div>
+
+<div data-section markdown>
 
 ## Email Infrastructure
 
-<div class="grid cards" markdown>
+<div class="ccards" markdown>
 
-- :material-puzzle:{ .lg .middle } **[Webmail plugin (Roundcube or similar)](webmail-eklenti.md)**
+<div class="ccard" data-cat="mail" data-lvl="i" markdown>
+<span class="ico">:material-puzzle:</span>
 
-    Add EAI send/receive support and fixes to an open-source webmail application.
+**[Webmail plugin (Roundcube or similar)](webmail-eklenti.md)**
 
-    <span class="badge">Advanced</span>
+Add EAI send/receive support and fixes to an open-source webmail application.
 
-- :material-newspaper-variant:{ .lg .middle } **[Newsletter and bulk email service](bulten-servisi.md)**
+<div class="meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-i">Advanced</span></div>
+</div>
 
-    Make the subscriber management and sending pipeline of a Listmonk-style newsletter service EAI-ready.
+<div class="ccard" data-cat="mail" data-lvl="o" markdown>
+<span class="ico">:material-newspaper-variant:</span>
 
-    <span class="badge">Intermediate</span>
+**[Newsletter and bulk email service](bulten-servisi.md)**
 
-- :material-lifebuoy:{ .lg .middle } **[Support ticket and CRM system](destek-bileti.md)**
+Make the subscriber management and sending pipeline of a Listmonk-style newsletter service EAI-ready.
 
-    Make the inbound and outbound email flows of a support system that opens tickets from email UA-ready.
+<div class="meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
-    <span class="badge">Intermediate</span>
+<div class="ccard" data-cat="mail" data-lvl="o" markdown>
+<span class="ico">:material-lifebuoy:</span>
+
+**[Support ticket and CRM system](destek-bileti.md)**
+
+Make the inbound and outbound email flows of a support system that opens tickets from email UA-ready.
+
+<div class="meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
 </div>
+
+</div>
+
+<div data-section markdown>
 
 ## Developer Tools
 
-<div class="grid cards" markdown>
+<div class="ccards" markdown>
 
-- :material-code-braces:{ .lg .middle } **[Turkish IDN and EAI validation library](dogrulama-kutuphanesi.md)**
+<div class="ccard" data-cat="dev" data-lvl="o" markdown>
+<span class="ico">:material-code-braces:</span>
 
-    A small open-source library that validates domain names and email addresses correctly and ships with tests for Turkish characters and case conversion.
+**[Turkish IDN and EAI validation library](dogrulama-kutuphanesi.md)**
 
-    <span class="badge">Intermediate</span>
+A small open-source library that validates domain names and email addresses correctly and ships with tests for Turkish characters and case conversion.
 
-- :material-magnify-scan:{ .lg .middle } **[UA Inspector: a form-checking browser extension](ua-denetci.md)**
+<div class="meta"><span class="badge cat">Developer Tools</span> <span class="badge lv-o">Intermediate</span></div>
+</div>
 
-    A browser extension that tries the email and domain fields of a web page with Turkish-character test addresses and produces a result report.
+<div class="ccard" data-cat="dev" data-lvl="i" markdown>
+<span class="ico">:material-magnify-scan:</span>
 
-    <span class="badge">Advanced</span>
+**[UA Inspector: a form-checking browser extension](ua-denetci.md)**
+
+A browser extension that tries the email and domain fields of a web page with Turkish-character test addresses and produces a result report.
+
+<div class="meta"><span class="badge cat">Developer Tools</span> <span class="badge lv-i">Advanced</span></div>
+</div>
 
 </div>
+
+</div>
+
+<p class="filter-empty" hidden>No concept matches this filter.</p>

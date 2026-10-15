@@ -4,39 +4,35 @@ title: "Okul-veli bilgilendirme sistemi"
 
 # Okul-veli bilgilendirme sistemi
 
-**Kategori:** Kamu ve Eğitim · **Zorluk:** Başlangıç
+<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span> <span class="badge lv-b">Başlangıç</span></div>
 
-!!! tip "Özet"
-    Okulların velilere duyuru ve not bildirimi gönderdiği sistemi UA uyumlu yapmak.
+<div class="concept-lead" markdown>
+Okulların velilere duyuru ve not bildirimi gönderdiği sistemi UA uyumlu yapmak.
+</div>
 
-## Kimin işine yarar?
+**Kimin işine yarar?** Okullar, e-okul benzeri sistemler geliştiren firmalar.
 
-Okullar, e-okul benzeri sistemler geliştiren firmalar.
+=== "UA dokunma noktaları"
 
-## UA dokunma noktaları
+    - Veli iletişim e-postası kaydı
+    - Toplu duyuru gönderimi
+    - Not ve devamsızlık bildirimleri
+    - Öğrenci ve veli adı büyük/küçük harf dönüşümü
 
-- Veli iletişim e-postası kaydı
-- Toplu duyuru gönderimi
-- Not ve devamsızlık bildirimleri
-- Öğrenci ve veli adı büyük/küçük harf dönüşümü
+=== "Türkçe test senaryoları"
 
-## Türkçe test senaryoları
+    - [ ] `şükrü@veli.com` adresini veliye kaydet
+    - [ ] `İSMAİL` adının doğru küçük harfe dönüştüğünü doğrula
+    - [ ] Toplu duyuruyu 100 adrese gönder
 
-- [ ] `şükrü@veli.com` adresini veliye kaydet
-- [ ] `İSMAİL` adının doğru küçük harfe dönüştüğünü doğrula
-- [ ] Toplu duyuruyu 100 adrese gönder
+=== "Başarı ölçütü"
 
-## Önerilen teknoloji
+    - [ ] Toplu gönderimde EAI adresleri kaybolmaz
+    - [ ] `İ/i` ve `I/ı` dönüşümü doğrudur
 
-PHP/Laravel, MySQL, kuyruk (queue)
+**Önerilen teknoloji:** PHP/Laravel, MySQL, kuyruk (queue)
 
-## Başarı ölçütü
-
-- [ ] Toplu gönderimde EAI adresleri kaybolmaz
-- [ ] `İ/i` ve `I/ı` dönüşümü doğrudur
-
----
-
-Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
+!!! note ""
+    Bu sayfa bir **örnek konsepttir**; başvuru için zorunlu değildir. Kendi projenle de başvurabilirsin.
 
 [← Örnek projeler](index.md)

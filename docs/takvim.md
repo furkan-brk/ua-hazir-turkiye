@@ -6,14 +6,38 @@ title: Takvim
 
 **Çağrıdan finale yaklaşık 8 hafta sürer; bunun 4 haftası uyumlaştırmadır.** Aşağıdaki tarihler örnektir ve ICANN'in 25 Mart – 30 Mayıs etkinlik penceresine sığacak şekilde planlanmıştır.
 
-| Aşama | Başlangıç | Bitiş | Ne olur? |
-| --- | --- | --- | --- |
-| Çağrı ve başvuru | 29 Mart 2027 | 11 Nisan 2027 | Projeler başvurur |
-| Ön eleme | 12 Nisan | 18 Nisan | Uygunluk kontrolü, kabul bildirimi |
-| Açılış ve eğitim | 19 Nisan | 20 Nisan | ICANN teknik eğitimi, e-posta sistemi tanıtımı |
-| Uyumlaştırma | 19 Nisan | 16 Mayıs | Ekipler projeyi düzeltir; haftalık mentor saatleri |
-| UA doğrulaması | 17 Mayıs | 23 Mayıs | Teknik komite testi, bir düzeltme hakkı |
-| Final günü | 29 Mayıs | 29 Mayıs | Farkındalık oturumu, demolar, jüri, ödül |
+<div class="tl" markdown>
+<div class="tl-item" markdown>
+<time>29 Mart – 11 Nisan 2027</time>
+<b>Çağrı ve başvuru</b>
+<p>Projeler başvurur.</p>
+</div>
+<div class="tl-item" markdown>
+<time>12 – 18 Nisan</time>
+<b>Ön eleme</b>
+<p>Uygunluk kontrolü ve kabul bildirimi.</p>
+</div>
+<div class="tl-item" markdown>
+<time>19 – 20 Nisan</time>
+<b>Açılış ve eğitim</b>
+<p>ICANN teknik eğitimi ve e-posta sistemi tanıtımı.</p>
+</div>
+<div class="tl-item" markdown>
+<time>19 Nisan – 16 Mayıs</time>
+<b>Uyumlaştırma</b>
+<p>Ekipler projeyi düzeltir; haftalık mentor saatleri yapılır.</p>
+</div>
+<div class="tl-item" markdown>
+<time>17 – 23 Mayıs</time>
+<b>UA doğrulaması</b>
+<p>Teknik komite testi; bir düzeltme hakkı.</p>
+</div>
+<div class="tl-item is-final" markdown>
+<time>29 Mayıs</time>
+<b>Final günü</b>
+<p>Farkındalık oturumu, demolar, jüri ve ödül töreni.</p>
+</div>
+</div>
 
 !!! note "Tarihler değişebilir"
     Kesin tarihler ICANN onayından sonra duyurulacaktır.

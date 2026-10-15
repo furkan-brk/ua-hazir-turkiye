@@ -1,58 +1,106 @@
 ---
 title: Ana Sayfa
+description: Var olan projeni Evrensel Kabul (UA) uyumlu hale getir, doğrulamayı geç, finalde uzman jüriye sun.
+hide:
+  - navigation
+  - toc
 ---
 
-<div class="hero" markdown>
+<div class="ua-hero" markdown>
 
-# Projen, dünyanın her adresini tanısın.
+<span class="ua-eyebrow">Evrensel Kabul Uyum Çağrısı · 2027</span>
 
-**UA-Hazır Türkiye 2027**, var olan projeleri Evrensel Kabul (Universal Acceptance, UA) uyumlu hale getiren bir uyum yarışmasıdır. `şükrü@çiçek.com.tr` gibi Türkçe karakterli adresler her yerde çalışsın diye.
+# Projen her adresi *tanısın*.
+
+`şükrü@çiçek.com.tr` gibi Türkçe karakterli e-posta ve alan adları her yazılımda çalışmalı. **UA-Hazır Türkiye 2027**, var olan projeleri bu hedefe taşıyan bir uyum yarışmasıdır: sıfırdan ürün yazmıyorsun, çalışan projeni düzeltiyorsun.
 
 [Nasıl işler?](program.md){ .md-button .md-button--primary }
-[Örnek projeler](ornek-projeler/index.md){ .md-button }
+[Örnek projelere bak](ornek-projeler/index.md){ .md-button }
+
+<div class="ua-flow">
+  <span>Çağrı</span><i>→</i><span>Uyumlaştırma</span><i>→</i><span>UA doğrulaması</span><i>→</i><span>Final</span>
+</div>
 
 </div>
 
-## Bu bir hackathon değil
+<div class="tiles" markdown>
+<div class="tile" markdown><b>8</b><span>hafta: çağrıdan finale</span></div>
+<div class="tile" markdown><b>4</b><span>hafta uyumlaştırma süresi</span></div>
+<div class="tile" markdown><b>5</b><span>adım: kabul, doğrulama, saklama, işleme, gösterim</span></div>
+<div class="tile" markdown><b>12</b><span>örnek proje konsepti</span></div>
+</div>
 
-Sıfırdan ürün yazmıyoruz. **Zaten çalışan projeni** getiriyorsun, yaklaşık 4 hafta içinde UA uyumlu hale getiriyorsun, doğrulamayı geçersen finalde uzman jüriye sunuyorsun.
+## Nasıl işler?
 
-<div class="grid cards" markdown>
-
-- :material-file-send:{ .lg .middle } **1. Çağrı**
-
-    Çalışan web, mobil, masaüstü, e-posta, kütüphane veya API projenle başvur.
-
-- :material-wrench:{ .lg .middle } **2. Uyumlaştırma**
-
-    ICANN eğitimi, mentor saatleri ve Türkçe karakterli test e-posta sistemiyle projeni düzelt.
-
-- :material-check-decagram:{ .lg .middle } **3. Doğrulama**
-
-    Teknik komite standart UA test setini çalıştırır. Geçersen **UA-Hazır** rozeti alırsın.
-
-- :material-trophy:{ .lg .middle } **4. Final**
-
-    Finalistler canlı demoyla uzman jüri önüne çıkar; ilk üçe ödül verilir.
-
+<div class="step-cards" markdown>
+<div class="step-card" markdown>
+### Çağrı
+Çalışan web, mobil, masaüstü, e-posta, kütüphane veya API projenle başvur.
+</div>
+<div class="step-card" markdown>
+### Uyumlaştırma
+ICANN eğitimi, mentor saatleri ve Türkçe karakterli test e-posta sistemiyle projeni düzelt.
+</div>
+<div class="step-card" markdown>
+### Doğrulama
+Teknik komite standart UA test setini çalıştırır. Geçersen **UA-Hazır** rozeti alırsın.
+</div>
+<div class="step-card" markdown>
+### Final
+Finalistler canlı demoyla uzman jüri önüne çıkar; ilk üçe ödül verilir.
+</div>
 </div>
 
 ## Neden önemli?
 
-!!! example "Bugün olan"
-    Birçok kayıt formu `şükrü@örnek.com` adresini "geçersiz e-posta" diye reddeder. `İSPARTA` ile `ısparta` aynı kullanıcı sayılmaz. Bildirim e-postaları ulaşmaz. Bu, milyonlarca kişinin kendi dilinde internet kullanmasını engeller.
+Bugün birçok yazılım Türkçe karakterli adresleri sessizce bozuyor. UA uyumlu bir projede aynı adresler sorunsuz çalışır.
 
-Evrensel Kabul, geçerli her alan adının ve e-posta adresinin; dilden, yazıdan ve uzunluktan bağımsız olarak her uygulamada çalışmasıdır. Ayrıntı için [Evrensel Kabul](universal-acceptance.md) sayfasına bak.
+<div class="compare" markdown>
+<div class="bad" markdown>
+### UA uyumsuz
+- `şükrü@örnek.com` kayıt formunda "geçersiz e-posta" der
+- `İSPARTA` ve `ısparta` farklı kullanıcı sayılır
+- Bildirim e-postaları kaybolur
+</div>
+<div class="good" markdown>
+### UA uyumlu
+- Adres kabul edilir, doğrulanır ve saklanır
+- Büyük/küçük harf dönüşümü Türkçe kurallarına uyar
+- E-postalar EAI destekli sunucuyla ulaşır
+</div>
+</div>
 
-## Takvim özeti
+Ayrıntı için [Evrensel Kabul](universal-acceptance.md) sayfasına bak.
 
-| Aşama | Tarih (örnek, 2027) |
-| --- | --- |
-| Çağrı ve başvuru | 29 Mart – 11 Nisan |
-| Ön eleme | 12 – 18 Nisan |
-| Açılış ve ICANN eğitimi | 19 – 20 Nisan |
-| Uyumlaştırma | 19 Nisan – 16 Mayıs |
-| UA doğrulaması | 17 – 23 Mayıs |
-| Final günü | 29 Mayıs |
+## Takvim
 
-Tarihler ICANN UA Day penceresine (25 Mart – 30 Mayıs) göre planlanmıştır ve kesinleşince güncellenecektir. Ayrıntı: [Takvim](takvim.md).
+<div class="tl" markdown>
+<div class="tl-item" markdown>
+<time>29 Mart – 11 Nisan 2027</time>
+<b>Çağrı ve başvuru</b>
+<p>Projeler başvurur; uygunluk koşulları [Katılım](katilim.md) sayfasında.</p>
+</div>
+<div class="tl-item" markdown>
+<time>19 Nisan – 16 Mayıs</time>
+<b>Uyumlaştırma</b>
+<p>ICANN eğitimi, mentor saatleri ve test e-posta sistemi.</p>
+</div>
+<div class="tl-item" markdown>
+<time>17 – 23 Mayıs</time>
+<b>UA doğrulaması</b>
+<p>Teknik komite testi; bir düzeltme hakkı.</p>
+</div>
+<div class="tl-item is-final" markdown>
+<time>29 Mayıs</time>
+<b>Final günü</b>
+<p>Farkındalık oturumu, canlı demolar, uzman jüri ve ödül töreni.</p>
+</div>
+</div>
+
+Tarihler örnektir ve ICANN UA Day penceresine (25 Mart – 30 Mayıs) göre planlanmıştır. Tüm aşamalar için [Takvim](takvim.md) sayfasına bak.
+
+## Hemen başla
+
+- [Katılım koşullarını oku](katilim.md)
+- [UA kontrol listesiyle projeni değerlendir](kriterler.md)
+- [Aklına takılanlar için SSS](sss.md)

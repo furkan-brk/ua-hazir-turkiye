@@ -20,11 +20,37 @@ Turkish characters (`ç ğ ı İ ö ş ü`) cause problems in three places:
 
 When software meets a domain name or email address, it must get five things right:
 
-1. **Accept:** Input fields do not reject the address.
-2. **Validate:** Validation rules (regex, libraries) know Unicode, long and new TLDs.
-3. **Store:** Databases and logs keep it intact in UTF-8.
-4. **Process:** A-label and U-label conversion (Punycode) and case conversion are correct.
-5. **Display:** The address is readable in the interface, emails and documents.
+<div class="step-cards" markdown>
+<div class="step-card" markdown>
+### Accept
+Input fields do not reject the address.
+</div>
+<div class="step-card" markdown>
+### Validate
+Validation rules (regex, libraries) know Unicode, long and new TLDs.
+</div>
+<div class="step-card" markdown>
+### Store
+Databases and logs keep it intact in UTF-8.
+</div>
+<div class="step-card" markdown>
+### Process
+A-label and U-label conversion (Punycode) and case conversion are correct.
+</div>
+<div class="step-card" markdown>
+### Display
+The address is readable in the interface, emails and documents.
+</div>
+</div>
+
+```mermaid
+flowchart LR
+    A[User enters address] --> B[Accept]
+    B --> C[Validate]
+    C --> D[Store]
+    D --> E[Process]
+    E --> F[Display]
+```
 
 ## Short glossary
 
