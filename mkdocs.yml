@@ -80,21 +80,10 @@ plugins:
           site_name: UA-Ready Türkiye 2027
           nav_translations:
             Ana Sayfa: Home
-            Program: Program
-            Evrensel Kabul: Universal Acceptance
-            Takvim: Schedule
-            Katılım: Participation
-            Kriterler: Criteria
-            Doğrulama: Verification
-            Değerlendirme: Judging
+            Nasıl İşler: How It Works
+            Kontrol Listesi: Checklist
             Örnek Projeler: Example Projects
-            Kaynaklar: Resources
             SSS: FAQ
-            Web ve E-ticaret: Web and E-commerce
-            Kamu ve Eğitim: Public Sector and Education
-            Mobil: Mobile
-            E-posta Altyapısı: Email Infrastructure
-            Geliştirici Araçları: Developer Tools
   - glightbox:
       touchNavigation: true
       loop: false
@@ -130,31 +119,7 @@ markdown_extensions:
 
 nav:
   - Ana Sayfa: index.md
-  - Program: program.md
-  - Evrensel Kabul: universal-acceptance.md
-  - Takvim: takvim.md
-  - Katılım: katilim.md
-  - Kriterler: kriterler.md
-  - Doğrulama: dogrulama.md
-  - Değerlendirme: degerlendirme.md
-  - Örnek Projeler:
-      - ornek-projeler/index.md
-      - Web ve E-ticaret:
-          - ornek-projeler/ua-eticaret.md
-          - ornek-projeler/ua-randevu.md
-      - Kamu ve Eğitim:
-          - ornek-projeler/belediye-basvuru.md
-          - ornek-projeler/kampus-kulup.md
-          - ornek-projeler/okul-veli.md
-      - Mobil:
-          - ornek-projeler/mobil-kayit.md
-          - ornek-projeler/mobil-webmail.md
-      - E-posta Altyapısı:
-          - ornek-projeler/webmail-eklenti.md
-          - ornek-projeler/bulten-servisi.md
-          - ornek-projeler/destek-bileti.md
-      - Geliştirici Araçları:
-          - ornek-projeler/dogrulama-kutuphanesi.md
-          - ornek-projeler/ua-denetci.md
-  - Kaynaklar: kaynaklar.md
+  - Nasıl İşler: program.md
+  - Kontrol Listesi: kriterler.md
+  - Örnek Projeler: ornek-projeler/index.md
   - SSS: sss.md

@@ -741,3 +741,12 @@
     padding: 1rem;
   }
 }
+
+/* Örnek proje kartı: "Ne test edilir?" satırı */
+.md-typeset .ccard .test {
+  margin: 0.6rem 0 0;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--ua-border);
+  font-size: 0.74rem;
+  color: var(--ua-muted);
+}

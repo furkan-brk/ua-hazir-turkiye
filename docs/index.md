@@ -1,6 +1,6 @@
 ---
 title: Ana Sayfa
-description: Var olan projeni Evrensel Kabul (UA) uyumlu hale getir, doğrulamayı geç, finalde test jürisinden yatırım topla.
+description: Var olan yazılımını Türkçe karakterli e-posta adreslerine hazırla, finalde test jürisinden yatırım topla.
 hide:
   - navigation
   - toc
@@ -12,89 +12,59 @@ hide:
 
 # Projen her adresi *tanısın*.
 
-`şükrü@çiçek.com.tr` gibi Türkçe karakterli e-posta ve alan adları her yazılımda çalışmalı. Sıfırdan ürün yazmıyorsun: **var olan projeni** uyumlu hale getiriyorsun, finalde test jürisinden yatırım topluyorsun.
+Var olan yazılımın `şükrü@çiçek.com.tr` gibi Türkçe karakterli e-posta adreslerini desteklesin. Düzelt, finale kal, test jürisinden yatırım topla.
 
-**Kim başvurabilir?** Alan adı veya e-posta adresi kabul eden, işleyen ya da gösteren her yazılım. **Tek şart:** başvuru tarihinde çalışan bir sürümünün olması.
+**Tek şart:** başvuruda çalışan bir sürümün olsun.
 
 [Başvur](#basvuru){ .md-button .md-button--primary }
-[Örnek projelere bak](ornek-projeler/index.md){ .md-button }
+[Nasıl işler?](program.md){ .md-button }
 
 </div>
 
-## Yarışma bir bakışta
+## Bir bakışta
 
-| Başlık | Bilgi |
+| | |
 | --- | --- |
-| **Süre** | Yaklaşık 4 hafta uyumlaştırma, ardından tek günlük final |
-| **Takım** | En fazla 4 kişi |
-| **Proje** | Var olan, çalışan bir yazılım (web, mobil, masaüstü, e-posta, kütüphane, API) |
-| **Test jürisi** | 20 kişi |
-| **Kazanan** | Test jürisinden en çok yatırım alan takım |
+| **Kimler** | Alan adı veya e-posta kullanan her yazılım. Takım en fazla 4 kişi. |
+| **Tarihler** | Başvuru 22 Mart – 1 Nisan · Final 1 Mayıs |
+| **Süre** | Yaklaşık 3 hafta düzeltme, sonra tek günlük final |
+| **Kazanan** | 20 kişilik test jürisinden en çok yatırım alan takım |
 | **Ödül** | İlk 3 takıma ödül, katılan herkese sertifika |
 
-## Nasıl işler?
+## 4 adım
 
 <div class="step-cards" markdown>
 <div class="step-card" markdown>
 ### Başvur
-Çalışan projenle aşağıdaki formdan başvur.
+Aşağıdaki formu doldur.
 </div>
 <div class="step-card" markdown>
-### Uyumlaştır
-Yaklaşık 3 hafta: ICANN eğitimi, mentor saatleri ve Türkçe karakterli test e-posta sistemiyle projeni düzelt.
+### Düzelt
+Eğitim ve mentor desteğiyle projeni düzelt.
 </div>
 <div class="step-card" markdown>
-### Doğrulamayı geç
-Standart UA testini geçersen **UA-Hazır** rozeti alırsın ve finale kalırsın.
+### Testi geç
+[Kontrol listesini](kriterler.md) geçersen finale kalırsın.
 </div>
 <div class="step-card" markdown>
 ### Yatırım topla
-Finalde canlı demo yaparsın; 20 kişilik test jürisi sanal bakiyesini beğendiği projelere yatırır.
+Canlı demo yap, jüri beğendiğine yatırım yapsın.
 </div>
 </div>
 
 <div class="invest-box" markdown>
 
-### Yatırım sistemi
+### Kazanan nasıl belirlenir?
 
-- Test jürisindeki her kişiye sistemde eşit bir sanal bakiye tanımlanır.
-- Jüri üyeleri bakiyelerini istedikleri finalistlere, istedikleri miktarda yatırır.
-- **En çok yatırım alan takım yarışmayı kazanır.**
-
-Ayrıntı için [Değerlendirme](degerlendirme.md) sayfasına bak.
+- Test jürisindeki 20 kişinin her birine eşit sanal bakiye verilir.
+- Herkes bakiyesini beğendiği projelere istediği gibi dağıtır.
+- **En çok yatırım alan takım kazanır.**
 
 </div>
-
-## Takvim
-
-<div class="tl" markdown>
-<div class="tl-item" markdown>
-<time>22 Mart – 1 Nisan 2027</time>
-<b>Çağrı ve başvuru</b>
-<p>Projeler başvurur; ön eleme 2–4 Nisan'da yapılır.</p>
-</div>
-<div class="tl-item" markdown>
-<time>5 – 23 Nisan</time>
-<b>Uyumlaştırma</b>
-<p>ICANN eğitimi, mentor saatleri ve test e-posta sistemi.</p>
-</div>
-<div class="tl-item" markdown>
-<time>24 – 28 Nisan</time>
-<b>UA doğrulaması</b>
-<p>Kanıtlar teslim edilir, teknik komite testi yapılır; bir düzeltme hakkı vardır.</p>
-</div>
-<div class="tl-item is-final" markdown>
-<time>1 Mayıs</time>
-<b>Final günü</b>
-<p>Farkındalık oturumu, canlı demolar, yatırım turu ve ödül töreni.</p>
-</div>
-</div>
-
-Tarihler örnektir ve ICANN onayına bağlıdır. Ayrıntı: [Takvim](takvim.md).
 
 <h2 id="basvuru">Başvuru formu</h2>
 
-Takım başına tek başvuru yapılır. Alanları kısa tutabilirsin; ayrıntıları sonra konuşuruz.
+Takım başına tek başvuru yeterli. Kısa yaz, ayrıntıyı sonra konuşuruz.
 
 <form class="apply-form" action="https://formspree.io/f/FORM_ID" method="POST">
   <div class="field">
@@ -104,7 +74,7 @@ Takım başına tek başvuru yapılır. Alanları kısa tutabilirsin; ayrıntıl
   <div class="field">
     <label for="contact">İletişim e-postası</label>
     <input id="contact" name="eposta" type="text" inputmode="email" autocomplete="email" required>
-    <span class="hint">Türkçe karakterli adresler de kabul edilir.</span>
+    <span class="hint">Türkçe karakterli adresler de olur.</span>
   </div>
   <div class="field wide">
     <label for="members">Takım üyeleri (en fazla 4 kişi)</label>
@@ -115,7 +85,7 @@ Takım başına tek başvuru yapılır. Alanları kısa tutabilirsin; ayrıntıl
     <input id="project" name="proje_adi" type="text" required>
   </div>
   <div class="field">
-    <label for="link">Proje bağlantısı (depo veya canlı adres)</label>
+    <label for="link">Proje bağlantısı (isteğe bağlı)</label>
     <input id="link" name="proje_baglantisi" type="url">
   </div>
   <div class="field wide">
@@ -130,7 +100,7 @@ Takım başına tek başvuru yapılır. Alanları kısa tutabilirsin; ayrıntıl
     </select>
   </div>
   <div class="field wide">
-    <label for="scope">UA kapsamı: projende hangi e-posta ve alan adı noktaları etkilenecek?</label>
+    <label for="scope">Projenin neresi e-posta veya alan adı alıyor? (kayıt formu, bildirimler vb.)</label>
     <textarea id="scope" name="ua_kapsami" rows="3" required></textarea>
   </div>
   <label class="check">
@@ -144,22 +114,16 @@ Takım başına tek başvuru yapılır. Alanları kısa tutabilirsin; ayrıntıl
 
 ## Sık sorulan sorular
 
-??? question "Sıfırdan proje geliştirmem gerekiyor mu?"
-    Hayır. Çalışan bir projen olması yeterlidir. Amaç, o projeyi UA uyumlu hale getirmektir.
+??? question "Sıfırdan proje yazmam gerekiyor mu?"
+    Hayır. Çalışan bir projen olması yeterli. Projeyi tamamlamış olman da gerekmiyor.
 
-??? question "Projemin başvuruda tamamlanmış olması gerekiyor mu?"
-    Tamamlanmış olması gerekmez; **çalışan bir sürümü** olması yeterlidir. Eksiklerini uyumlaştırma sürecinde giderirsin.
+??? question "Evrensel Kabul (UA) nedir?"
+    Her yazılımın Türkçe karakterli e-posta ve alan adlarını sorunsuz kabul etmesi. Ayrıntı [SSS](sss.md#ua-nedir) sayfasında.
 
-??? question "Kazananı kim belirliyor?"
-    20 kişilik test jürisi. Her üye sanal bakiyesini beğendiği projelere yatırır; en çok yatırım alan kazanır.
+??? question "Sertifika var mı?"
+    Evet. Katılan herkese katılım sertifikası verilir.
 
-??? question "Sertifika verilecek mi?"
-    Evet. Katılan herkes katılım sertifikası alır. Doğrulamayı geçenlere ayrıca UA-Hazır rozeti verilir.
+??? question "Bu işi bilmiyorum, başvurabilir miyim?"
+    Evet. Eğitim ve mentor desteği bunun için var.
 
-??? question "UA'yı bilmiyorum, başvurabilir miyim?"
-    Evet. ICANN eğitimi, e-posta sistemi tanıtımı ve mentor saatleri bunun için var.
-
-??? question "Takım kaç kişi olabilir?"
-    En fazla 4 kişi. Tek kişi de başvurabilir.
-
-Tüm sorular için [SSS](sss.md) sayfasına bak.
+Diğer sorular için [SSS](sss.md) sayfasına bak.

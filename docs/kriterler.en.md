@@ -1,53 +1,34 @@
 ---
-title: Criteria
+title: Checklist
 ---
 
-# UA Compliance Criteria
+# Checklist
 
-**A project must behave correctly in five steps involving domain names and email addresses.** Only the **required** items are needed to enter the final; "bonus" items are optional. The list summarizes the standard test set; the exact list is finalized with the technical committee.
+**To reach the final, you must pass all 7 items below.** Test addresses use Turkish-character examples such as `şükrü@örnek.com` and `çiçek.com.tr`.
 
-## Required items (threshold)
+## Required items
 
-### Accept
+- [ ] The sign-up and login form accepts `şükrü@örnek.com`
+- [ ] The domain field accepts a Turkish-character name such as `çiçek.com.tr`
+- [ ] The validation rule doesn't call a valid address "wrong"
+- [ ] The address is saved intact in the database and logs
+- [ ] The letters `İ/i` and `I/ı` are upper- and lowercased correctly
+- [ ] The verification email reaches a Turkish-character test address
+- [ ] The address looks readable on screen and in email
 
-- [ ] Sign-up and login forms accept `şükrü@örnek.com`
-- [ ] Domain fields accept IDNs such as `çiçek.com.tr`
-
-### Validate
-
-- [ ] Validation rules (regex or library) accept a Unicode local part and a Unicode domain
-- [ ] Error messages do not accuse a valid address of being wrong
-
-### Store
-
-- [ ] Database and logs store it intact in UTF-8
-
-### Process
-
-- [ ] Case conversion is correct for `İ/i` and `I/ı`
-
-### Email (EAI) flow
-
-With Turkish-character test addresses on the organizers' server:
-
-- [ ] The sign-up and address verification email arrives
-
-## Bonus items (optional)
-
-- [ ] Field length limits do not break Unicode by cutting bytes
-- [ ] Validation rules accept long and new TLDs
-- [ ] Intact storage in the cache; address comparison and uniqueness checks work correctly
-- [ ] A-label ↔ U-label conversion (Punycode) is correct
-- [ ] Links and redirects do not corrupt the address
-- [ ] The address is readable in the interface
-- [ ] The address is intact in notification emails and PDF output
-- [ ] Password reset email works
-- [ ] Sending and receiving notifications works
+??? note "Optional items (no evidence needed)"
+    - [ ] Long addresses and new domain endings are accepted
+    - [ ] Field length limits don't cut Turkish letters in half
+    - [ ] The same address can't be registered twice (uniqueness check works)
+    - [ ] Addresses aren't corrupted in links and redirects
+    - [ ] Addresses aren't corrupted in PDF output
+    - [ ] The password reset email works
+    - [ ] Notification emails can be sent and received
 
 ## Evidence
 
-- **When?** Collect it throughout adaptation and submit it at the start of verification week (24 April).
-- **For what?** Evidence is mandatory only for the **required items**. It is optional for bonus items.
+- **When?** Collect it while fixing, submit it on 24 April.
+- **For what?** Only for the required items.
 - **How?** One screenshot, test output or automated test per item is enough.
 
-Details: [Verification](dogrulama.md).
+The exact list is finalized with the technical committee. See [How It Works](program.md) for the process.

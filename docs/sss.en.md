@@ -4,41 +4,70 @@ title: FAQ
 
 # Frequently Asked Questions
 
-??? question "Do I need to build a project from scratch?"
-    No. A working project is enough. The goal is to make that project UA-ready.
+## Applying
 
-??? question "Must my project be finished when I apply?"
-    No. A **working version** on the application date is enough. You fix the gaps during adaptation.
+??? question "Do I need to write a project from scratch?"
+    No. A working project is enough.
 
-??? question "Which technologies are accepted?"
-    All of them. Any software product that accepts, processes or displays domain names or email addresses can apply.
+??? question "Must my project be finished?"
+    No. A working version when you apply is enough.
+
+??? question "Which technologies are fine?"
+    All of them. Any software that uses domain names or email can apply.
 
 ??? question "How many people can be on a team?"
-    Up to 4. Individuals can apply too.
+    Up to 4. One person is fine too.
 
-??? question "I don't know UA. Can I apply?"
-    Yes. ICANN training, the email system introduction and mentor hours exist for this.
-
-??? question "Who decides the winner?"
-    The 20-person test jury. Each member invests their virtual balance in the finalist projects they like; the team with the most investment wins. Details: [Judging](degerlendirme.md).
-
-??? question "Will there be a certificate?"
-    Yes. Every participant receives a participation certificate. Projects that pass verification also receive the UA-Ready badge.
-
-??? question "When do I submit evidence, and is all of it required?"
-    Collect evidence throughout adaptation and submit it at the start of verification week. Evidence is mandatory only for the required items; bonus items are optional. Details: [Criteria](kriterler.md).
-
-??? question "Will we wait for the result of ICANN's observation?"
-    No. The ICANN observer accompanies the verification process, but finalists are selected by committee decision and prizes are decided by the investment result on final day.
-
-??? question "What if I fail verification?"
-    You get one chance to fix and resubmit. Even if you don't reach the final, you receive a participation certificate and your adaptation experience can appear in the report.
-
-??? question "Do I have to publish my project on the internet?"
-    No. Publishing is not required; teams may publish it themselves if they wish. The project must be runnable in the organizers' test environment.
+??? question "I don't know this topic. Can I apply?"
+    Yes. Training and mentor support exist for that.
 
 ??? question "Must my project be open source?"
-    No, but open-source contributions are an advantage for a special award.
+    No. Open source only counts in your favor for a special award.
+
+??? question "Do I have to publish my project online?"
+    No. It just needs to run in the organizers' test environment.
+
+## Process
+
+??? question "When do I submit evidence, and for how many items?"
+    On 24 April. Evidence is required only for the required items. Details: [Checklist](kriterler.md).
+
+??? question "What if I fail the test?"
+    You get one chance to fix it. Even if you miss the final, you get a participation certificate.
+
+??? question "Will we wait for ICANN's approval?"
+    No. An ICANN observer may join the tests, but the committee picks the finalists.
 
 ??? question "Is the event in English?"
-    The site and criteria are bilingual. Some presentations may need to be in English for ICANN; this will be announced once confirmed.
+    The site is bilingual. Some presentations may be in English for ICANN; this will be announced once confirmed.
+
+## Judging
+
+??? question "Who decides the winner?"
+    The 20-person test jury. Each member invests their virtual balance in the projects they like; the team with the most investment wins. Details: [How It Works](program.md#kazanan).
+
+??? question "Will there be a certificate?"
+    Yes. Every participant gets a participation certificate, and projects that pass the test also get the UA-Ready badge.
+
+## What is UA? { #ua-nedir }
+
+**Universal Acceptance (UA)** means every piece of software accepts email addresses and domain names with Turkish characters without problems. Today many applications silently break them:
+
+| Problem | Example |
+| --- | --- |
+| The form rejects the address | `şükrü@örnek.com` gets "invalid email" |
+| Letters get mixed up | `İSPARTA` and `ısparta` count as different users |
+| The email doesn't arrive | A notification email gets lost |
+
+??? note "Technical terms"
+    - **IDN:** A domain name with Turkish characters (`çiçek.com.tr`)
+    - **EAI:** An email address with Turkish characters (`şükrü@çiçek.com.tr`)
+    - **Punycode:** The technical spelling of such a domain name, starting with `xn--`
+    - **SMTPUTF8:** The email protocol extension that can carry these addresses
+
+## Resources
+
+- [ICANN](https://www.icann.org/)
+- [UA Day site](https://UniversalAcceptance.Day)
+- [UA Day 2026 events calendar](https://www.icann.org/ua-day-2026-events-en)
+- [UA Day 2026 Report](https://www.icann.org/en/system/files/files/universal-acceptance-day-report-30jun26-en.pdf)

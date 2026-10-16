@@ -4,7 +4,7 @@ title: "Örnek Projeler"
 
 # Örnek Projeler
 
-Fikir mi arıyorsun? Aşağıdaki 12 konsept, UA uyumlaştırmasına uygun proje türlerini gösterir. Hepsi örnektir; kendi projenle de başvurabilirsin.
+Fikir mi arıyorsun? Aşağıdakiler örnektir; kendi projenle de başvurabilirsin.
 
 <div class="filter-bar" role="group" aria-label="Örnek projeleri süz"><div class="group"><span>Kategori</span><button type="button" data-group="cat" data-filter="all" aria-pressed="true">Tümü</button><button type="button" data-group="cat" data-filter="web" aria-pressed="false">Web ve E-ticaret</button><button type="button" data-group="cat" data-filter="pub" aria-pressed="false">Kamu ve Eğitim</button><button type="button" data-group="cat" data-filter="mob" aria-pressed="false">Mobil</button><button type="button" data-group="cat" data-filter="mail" aria-pressed="false">E-posta Altyapısı</button><button type="button" data-group="cat" data-filter="dev" aria-pressed="false">Geliştirici Araçları</button></div></div>
 
@@ -17,21 +17,21 @@ Fikir mi arıyorsun? Aşağıdaki 12 konsept, UA uyumlaştırmasına uygun proje
 <div class="ccard" data-cat="web" markdown>
 <span class="ico">:material-cart:</span>
 
-**[UA-uyumlu e-ticaret mağazası](ua-eticaret.md)**
+**E-ticaret mağazası**
 
-WooCommerce veya benzeri bir mağazanın üyelik, sipariş ve fatura akışlarını Türkçe karakterli e-posta ve alan adlarıyla çalışır hale getirmek.
+Üyelik, sipariş ve fatura e-postaları Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">Web ve E-ticaret</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` ile kayıt ol ve sipariş ver</p>
 </div>
 
 <div class="ccard" data-cat="web" markdown>
 <span class="ico">:material-calendar-clock:</span>
 
-**[Randevu ve rezervasyon sistemi](ua-randevu.md)**
+**Randevu sistemi**
 
-Klinik, kuaför veya restoran için randevu sisteminin hatırlatma e-postalarını ve iptal bağlantılarını UA uyumlu yapmak.
+Hatırlatma ve iptal e-postaları Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">Web ve E-ticaret</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `gülşen@sağlık.com` ile randevu al</p>
 </div>
 
 </div>
@@ -47,31 +47,31 @@ Klinik, kuaför veya restoran için randevu sisteminin hatırlatma e-postaların
 <div class="ccard" data-cat="pub" markdown>
 <span class="ico">:material-city:</span>
 
-**[Belediye e-başvuru formu](belediye-basvuru.md)**
+**Belediye e-başvuru formu**
 
-Vatandaşların başvuru yaptığı bir belediye veya kurum portalını Türkçe karakterli e-posta ve alan adlarıyla sorunsuz çalıştırmak.
+Vatandaş başvuru portalı Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">Kamu ve Eğitim</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `müdürlük@büyükşehir.bel.tr` gibi kurumsal adres tanımla</p>
 </div>
 
 <div class="ccard" data-cat="pub" markdown>
 <span class="ico">:material-school:</span>
 
-**[Kampüs kulüp ve etkinlik platformu](kampus-kulup.md)**
+**Kampüs kulüp platformu**
 
-Öğrenci kulüplerinin üyelik ve etkinlik duyurularını yönettiği bir platformu UA uyumlu hale getirmek.
+Kulüp üyelik ve duyuruları Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">Kamu ve Eğitim</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şeyma@öğrenci.edu.tr` ile üye ol</p>
 </div>
 
 <div class="ccard" data-cat="pub" markdown>
 <span class="ico">:material-account-group:</span>
 
-**[Okul-veli bilgilendirme sistemi](okul-veli.md)**
+**Okul-veli bilgilendirme**
 
-Okulların velilere duyuru ve not bildirimi gönderdiği sistemi UA uyumlu yapmak.
+Duyuru ve not bildirimleri Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">Kamu ve Eğitim</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@veli.com` adresini veliye kaydet</p>
 </div>
 
 </div>
@@ -87,21 +87,21 @@ Okulların velilere duyuru ve not bildirimi gönderdiği sistemi UA uyumlu yapma
 <div class="ccard" data-cat="mob" markdown>
 <span class="ico">:material-cellphone:</span>
 
-**[Mobil kayıt ve e-posta doğrulama akışı](mobil-kayit.md)**
+**Mobil kayıt ve doğrulama**
 
-Flutter veya React Native uygulamasının kayıt, giriş ve e-posta doğrulama akışını Türkçe karakterli adreslerle çalışır hale getirmek.
+Flutter veya React Native uygulamasında kayıt ve doğrulama çalışsın.
 
-<div class="meta"><span class="badge cat">Mobil</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` ile kayıt ol</p>
 </div>
 
 <div class="ccard" data-cat="mob" markdown>
 <span class="ico">:material-email-outline:</span>
 
-**[Mobil e-posta ve kişi rehberi uygulaması](mobil-webmail.md)**
+**Mobil e-posta uygulaması**
 
-Unicode e-posta adreslerini gönderen, alan ve kişi rehberinde saklayan bir mobil e-posta uygulaması.
+Türkçe karakterli adreslere e-posta gönder ve rehberde sakla.
 
-<div class="meta"><span class="badge cat">Mobil</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` adresine e-posta gönder</p>
 </div>
 
 </div>
@@ -117,31 +117,31 @@ Unicode e-posta adreslerini gönderen, alan ve kişi rehberinde saklayan bir mob
 <div class="ccard" data-cat="mail" markdown>
 <span class="ico">:material-puzzle:</span>
 
-**[Webmail eklentisi (Roundcube veya benzeri)](webmail-eklenti.md)**
+**Webmail eklentisi**
 
-Açık kaynak bir webmail yazılımına EAI gönderme/alma desteği ve düzeltmeleri eklemek.
+Roundcube gibi açık kaynak bir webmail'e Türkçe karakterli adres desteği ekle.
 
-<div class="meta"><span class="badge cat">E-posta Altyapısı</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` adresine yanıt ver</p>
 </div>
 
 <div class="ccard" data-cat="mail" markdown>
 <span class="ico">:material-newspaper-variant:</span>
 
-**[Bülten ve toplu e-posta servisi](bulten-servisi.md)**
+**Bülten servisi**
 
-Listmonk benzeri bir bülten servisinin abone yönetimini ve gönderim hattını EAI uyumlu yapmak.
+Abone yönetimi ve toplu gönderim Türkçe karakterli adreslerle çalışsın.
 
-<div class="meta"><span class="badge cat">E-posta Altyapısı</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` ile abone ol ve onayla</p>
 </div>
 
 <div class="ccard" data-cat="mail" markdown>
 <span class="ico">:material-lifebuoy:</span>
 
-**[Destek bileti ve CRM sistemi](destek-bileti.md)**
+**Destek bileti sistemi**
 
-E-postadan bilet açan destek sisteminin gelen ve giden e-posta akışlarını UA uyumlu yapmak.
+E-postadan bilet açan sistemin gelen ve giden e-postaları çalışsın.
 
-<div class="meta"><span class="badge cat">E-posta Altyapısı</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` adresinden destek e-postası gönder</p>
 </div>
 
 </div>
@@ -157,25 +157,25 @@ E-postadan bilet açan destek sisteminin gelen ve giden e-posta akışlarını U
 <div class="ccard" data-cat="dev" markdown>
 <span class="ico">:material-code-braces:</span>
 
-**[Türkçe IDN ve EAI doğrulama kütüphanesi](dogrulama-kutuphanesi.md)**
+**Doğrulama kütüphanesi**
 
-Alan adı ve e-posta doğrulamasını doğru yapan, Türkçe karakter ve harf dönüşümü testleriyle gelen küçük bir açık kaynak kütüphane.
+Türkçe karakterli adresleri doğru doğrulayan küçük bir açık kaynak kütüphane.
 
-<div class="meta"><span class="badge cat">Geliştirici Araçları</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> `şükrü@örnek.com` ve `çiçek.com.tr` geçerli</p>
 </div>
 
 <div class="ccard" data-cat="dev" markdown>
 <span class="ico">:material-magnify-scan:</span>
 
-**[UA Denetçi: form denetleyen tarayıcı eklentisi](ua-denetci.md)**
+**Form denetleyen tarayıcı eklentisi**
 
-Bir web sayfasındaki e-posta ve alan adı alanlarını Türkçe karakterli test adresleriyle deneyip sonuç raporu veren tarayıcı eklentisi.
+Bir sayfadaki e-posta alanlarını test adresleriyle deneyip rapor ver.
 
-<div class="meta"><span class="badge cat">Geliştirici Araçları</span></div>
+<p class="test" markdown><b>Ne test edilir?</b> Test adresini kayıt formuna gir, reddedilirse raporla</p>
 </div>
 
 </div>
 
 </div>
 
-<p class="filter-empty" hidden>Bu süzgece uyan konsept yok.</p>
+<p class="filter-empty" hidden>Bu süzgece uyan örnek yok.</p>
