@@ -4,7 +4,7 @@ title: "Support ticket and CRM system"
 
 # Support ticket and CRM system
 
-<div class="concept-meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Email Infrastructure</span></div>
 
 <div class="concept-lead" markdown>
 Make the inbound and outbound email flows of a support system that opens tickets from email UA-ready.

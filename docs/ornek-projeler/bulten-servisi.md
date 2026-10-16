@@ -4,7 +4,7 @@ title: "Bülten ve toplu e-posta servisi"
 
 # Bülten ve toplu e-posta servisi
 
-<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span></div>
 
 <div class="concept-lead" markdown>
 Listmonk benzeri bir bülten servisinin abone yönetimini ve gönderim hattını EAI uyumlu yapmak.

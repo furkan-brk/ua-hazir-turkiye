@@ -4,7 +4,7 @@ title: "Belediye e-başvuru formu"
 
 # Belediye e-başvuru formu
 
-<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span></div>
 
 <div class="concept-lead" markdown>
 Vatandaşların başvuru yaptığı bir belediye veya kurum portalını Türkçe karakterli e-posta ve alan adlarıyla sorunsuz çalıştırmak.

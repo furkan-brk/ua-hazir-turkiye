@@ -4,7 +4,7 @@ title: "Mobil e-posta ve kişi rehberi uygulaması"
 
 # Mobil e-posta ve kişi rehberi uygulaması
 
-<div class="concept-meta"><span class="badge cat">Mobil</span> <span class="badge lv-i">İleri</span></div>
+<div class="concept-meta"><span class="badge cat">Mobil</span></div>
 
 <div class="concept-lead" markdown>
 Unicode e-posta adreslerini gönderen, alan ve kişi rehberinde saklayan bir mobil e-posta uygulaması.

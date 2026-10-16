@@ -4,7 +4,7 @@ title: "Turkish IDN and EAI validation library"
 
 # Turkish IDN and EAI validation library
 
-<div class="concept-meta"><span class="badge cat">Developer Tools</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Developer Tools</span></div>
 
 <div class="concept-lead" markdown>
 A small open-source library that validates domain names and email addresses correctly and ships with tests for Turkish characters and case conversion.

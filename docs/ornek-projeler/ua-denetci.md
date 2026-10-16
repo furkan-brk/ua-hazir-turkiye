@@ -4,7 +4,7 @@ title: "UA Denetçi: form denetleyen tarayıcı eklentisi"
 
 # UA Denetçi: form denetleyen tarayıcı eklentisi
 
-<div class="concept-meta"><span class="badge cat">Geliştirici Araçları</span> <span class="badge lv-i">İleri</span></div>
+<div class="concept-meta"><span class="badge cat">Geliştirici Araçları</span></div>
 
 <div class="concept-lead" markdown>
 Bir web sayfasındaki e-posta ve alan adı alanlarını Türkçe karakterli test adresleriyle deneyip sonuç raporu veren tarayıcı eklentisi.

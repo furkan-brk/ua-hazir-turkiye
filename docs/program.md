@@ -6,16 +6,16 @@ title: Program
 
 **UA-Hazır Türkiye 2027, ICANN'in UA Day etkinlik serisinin "Adoption & Demonstration" (uygulama ve gösterim) türüne yarışma formatı kazandıran bir uyum çağrısıdır.**
 
-## Hackathondan farkı
+## Klasik hackathondan farkı
 
 | Boyut | Klasik hackathon | UA Uyum Çağrısı |
 | --- | --- | --- |
 | Proje kaynağı | Etkinlikte sıfırdan yazılır | Daha önce geliştirilmiş, çalışan projeler |
-| Süre | 48 saat | Yaklaşık 8 hafta (4 hafta uyumlaştırma) |
+| Süre | 48 saat | Yaklaşık 4 hafta uyumlaştırma, ardından tek günlük final |
 | Kapsam | Web uygulaması | Web, mobil, masaüstü, e-posta, kütüphane, API |
-| Hedef | Beğeni veya yatırım toplamak | UA uyumunu kanıtlamak |
+| Hedef | Kullanıcıyı ikna edip yatırım almak | UA uyumunu kanıtlamak ve test jürisini ikna edip yatırım almak |
 | Finale giriş | Tüm takımlar | Yalnızca UA doğrulamasını geçenler |
-| Değerlendirme | Oy veya sanal yatırım | Uzman jüri, ağırlıklı puan tablosu |
+| Değerlendirme | Sanal yatırım | 20 kişilik test jürisinin sanal yatırımı |
 | Kalıcı etki | Prototip etkinlikle biter | Gerçek ürün UA-hazır kalır, vaka çalışması çıkar |
 
 ## Akış
@@ -26,10 +26,16 @@ flowchart LR
     B --> C[Açılış ve ICANN eğitimi]
     C --> D[Uyumlaştırma]
     D --> E{UA doğrulaması}
-    E -- Geçti --> F[Final ve jüri]
+    E -- Geçti --> F[Final: test jürisi yatırımı]
     E -- Kaldı --> G[Bir düzeltme hakkı]
     G --> E
 ```
+
+## Uygulama sisteme nasıl girer?
+
+- **Türkçe karakterli ad:** Takımlar projelerini sisteme Türkçe karakter içeren adlarla ekler; test jürisi projeleri bu adlarla görür.
+- **Mail sistemi entegrasyonu:** Projeler, organizasyonun kurduğu Türkçe karakterli e-posta adreslerini destekleyen mail sistemiyle çalışmalıdır.
+- **Yayın:** Projenin internette yayımlanması zorunlu değildir. İsteyen takım kendisi yayımlayabilir.
 
 ## ICANN gereksinimleri nasıl karşılanıyor?
 
@@ -41,4 +47,4 @@ flowchart LR
 
 ## Destek
 
-Ekipler yalnız bırakılmaz: ICANN teknik eğitimi, e-posta sistemi tanıtımı (3 saat), haftalık mentor saatleri, her ekibe Türkçe karakterli test alanı ve ortak bir iletişim kanalı sağlanır.
+Ekipler yalnız bırakılmaz: ICANN teknik eğitimi, e-posta sistemi tanıtımı (3 saat), haftalık mentor saatleri, her ekibe Türkçe karakterli test alanı ve ortak bir iletişim kanalı sağlanır. Katılan herkes **katılım sertifikası** alır.

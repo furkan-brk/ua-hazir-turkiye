@@ -4,7 +4,7 @@ title: "Appointment and booking system"
 
 # Appointment and booking system
 
-<div class="concept-meta"><span class="badge cat">Web and E-commerce</span> <span class="badge lv-b">Beginner</span></div>
+<div class="concept-meta"><span class="badge cat">Web and E-commerce</span></div>
 
 <div class="concept-lead" markdown>
 Make reminder emails and cancellation links of a clinic, salon or restaurant booking system UA-ready.

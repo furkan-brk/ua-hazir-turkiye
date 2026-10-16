@@ -4,7 +4,7 @@ title: "Webmail eklentisi (Roundcube veya benzeri)"
 
 # Webmail eklentisi (Roundcube veya benzeri)
 
-<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span> <span class="badge lv-i">İleri</span></div>
+<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span></div>
 
 <div class="concept-lead" markdown>
 Açık kaynak bir webmail yazılımına EAI gönderme/alma desteği ve düzeltmeleri eklemek.

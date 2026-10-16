@@ -4,7 +4,7 @@ title: "UA-ready online store"
 
 # UA-ready online store
 
-<div class="concept-meta"><span class="badge cat">Web and E-commerce</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Web and E-commerce</span></div>
 
 <div class="concept-lead" markdown>
 Make the membership, order and invoice flows of a WooCommerce-style store work with email addresses and domains that use Turkish characters.

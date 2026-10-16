@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Make your existing project Universal Acceptance (UA) ready, pass verification and present to an expert jury in the final.
+description: Make your existing project Universal Acceptance (UA) ready, pass verification and raise investment from the test jury in the final.
 hide:
   - navigation
   - toc
@@ -12,95 +12,154 @@ hide:
 
 # Make your project *recognize* every address.
 
-Email addresses and domain names with Turkish characters, like `şükrü@çiçek.com.tr`, must work in every piece of software. **UA-Ready Türkiye 2027** is a compliance competition that takes existing projects there: you don't build from scratch, you fix what already runs.
+Email addresses and domain names with Turkish characters, like `şükrü@çiçek.com.tr`, must work in every piece of software. You don't build from scratch: you make **your existing project** UA-ready, then raise investment from the test jury in the final.
 
-[How it works](program.md){ .md-button .md-button--primary }
+**Who can apply?** Any software that accepts, processes or displays domain names or email addresses. **The only requirement:** a working version on the application date.
+
+[Apply](#basvuru){ .md-button .md-button--primary }
 [Browse example projects](ornek-projeler/index.md){ .md-button }
 
-<div class="ua-flow">
-  <span>Call</span><i>→</i><span>Adaptation</span><i>→</i><span>UA verification</span><i>→</i><span>Final</span>
 </div>
 
-</div>
+## At a glance
 
-<div class="tiles" markdown>
-<div class="tile" markdown><b>8</b><span>weeks from call to final</span></div>
-<div class="tile" markdown><b>4</b><span>weeks of adaptation</span></div>
-<div class="tile" markdown><b>5</b><span>steps: accept, validate, store, process, display</span></div>
-<div class="tile" markdown><b>12</b><span>example project concepts</span></div>
-</div>
+| Item | Details |
+| --- | --- |
+| **Duration** | About 4 weeks of adaptation, then a one-day final |
+| **Team** | Up to 4 people |
+| **Project** | An existing, working piece of software (web, mobile, desktop, email, library, API) |
+| **Test jury** | 20 people |
+| **Winner** | The team that receives the most investment from the test jury |
+| **Awards** | Prizes for the top 3 teams, a certificate for every participant |
 
 ## How it works
 
 <div class="step-cards" markdown>
 <div class="step-card" markdown>
-### Call
-Apply with a working web, mobile, desktop, email, library or API project.
+### Apply
+Apply with your working project using the form below.
 </div>
 <div class="step-card" markdown>
-### Adaptation
-Fix your project with ICANN training, mentor hours and a test email system that supports Turkish characters.
+### Adapt
+About 3 weeks: fix your project with ICANN training, mentor hours and a test email system that supports Turkish characters.
 </div>
 <div class="step-card" markdown>
-### Verification
-A technical committee runs the standard UA test set. Pass it and you earn the **UA-Ready** badge.
+### Pass verification
+Pass the standard UA test to earn the **UA-Ready** badge and reach the final.
 </div>
 <div class="step-card" markdown>
-### Final
-Finalists give a live demo to the expert jury; the top three receive prizes.
+### Raise investment
+Give a live demo in the final; the 20-person test jury invests its virtual balance in the projects it likes.
 </div>
 </div>
 
-## Why it matters
+<div class="invest-box" markdown>
 
-Today many applications silently break addresses with Turkish characters. In a UA-ready project the same addresses just work.
+### Investment system
 
-<div class="compare" markdown>
-<div class="bad" markdown>
-### Not UA-ready
-- `şükrü@örnek.com` is called an "invalid email" on sign-up
-- `İSPARTA` and `ısparta` are treated as different users
-- Notification emails get lost
-</div>
-<div class="good" markdown>
-### UA-ready
-- The address is accepted, validated and stored
-- Case conversion follows Turkish rules
-- Emails arrive through an EAI-capable server
-</div>
-</div>
+- Every test jury member receives the same virtual balance in the system.
+- Members invest their balance in any finalists, in any amount they like.
+- **The team with the most investment wins.**
 
-See [Universal Acceptance](universal-acceptance.md) for details.
+See [Judging](degerlendirme.md) for details.
+
+</div>
 
 ## Schedule
 
 <div class="tl" markdown>
 <div class="tl-item" markdown>
-<time>29 March – 11 April 2027</time>
+<time>22 March – 1 April 2027</time>
 <b>Call and applications</b>
-<p>Projects apply; eligibility is on the [Participation](katilim.md) page.</p>
+<p>Projects apply; pre-screening runs 2–4 April.</p>
 </div>
 <div class="tl-item" markdown>
-<time>19 April – 16 May</time>
+<time>5 – 23 April</time>
 <b>Adaptation</b>
 <p>ICANN training, mentor hours and a test email system.</p>
 </div>
 <div class="tl-item" markdown>
-<time>17 – 23 May</time>
+<time>24 – 28 April</time>
 <b>UA verification</b>
-<p>Technical committee test; one fix allowed.</p>
+<p>Evidence is submitted and the technical committee tests; one fix allowed.</p>
 </div>
 <div class="tl-item is-final" markdown>
-<time>29 May</time>
+<time>1 May</time>
 <b>Final day</b>
-<p>Awareness session, live demos, expert jury and awards ceremony.</p>
+<p>Awareness session, live demos, investment round and awards ceremony.</p>
 </div>
 </div>
 
-Dates are examples planned around ICANN's UA Day window (25 March – 30 May). See [Schedule](takvim.md) for every phase.
+Dates are examples and depend on ICANN confirmation. See [Schedule](takvim.md).
 
-## Get started
+<h2 id="basvuru">Application form</h2>
 
-- [Read the participation rules](katilim.md)
-- [Assess your project with the UA checklist](kriterler.md)
-- [Questions? See the FAQ](sss.md)
+One application per team. Keep the answers short; we will go into detail later.
+
+<form class="apply-form" action="https://formspree.io/f/FORM_ID" method="POST">
+  <div class="field">
+    <label for="team">Team name</label>
+    <input id="team" name="takim_adi" type="text" required>
+  </div>
+  <div class="field">
+    <label for="contact">Contact email</label>
+    <input id="contact" name="eposta" type="text" inputmode="email" autocomplete="email" required>
+    <span class="hint">Addresses with Turkish characters are accepted.</span>
+  </div>
+  <div class="field wide">
+    <label for="members">Team members (up to 4 people)</label>
+    <textarea id="members" name="uyeler" rows="2" required></textarea>
+  </div>
+  <div class="field">
+    <label for="project">Project name</label>
+    <input id="project" name="proje_adi" type="text" required>
+  </div>
+  <div class="field">
+    <label for="link">Project link (repository or live address)</label>
+    <input id="link" name="proje_baglantisi" type="url">
+  </div>
+  <div class="field wide">
+    <label for="type">Project type</label>
+    <select id="type" name="proje_turu" required>
+      <option value="">Select</option>
+      <option>Website / web application</option>
+      <option>Mobile app</option>
+      <option>Desktop software / email client</option>
+      <option>Library / plugin</option>
+      <option>API / backend service</option>
+    </select>
+  </div>
+  <div class="field wide">
+    <label for="scope">UA scope: which email and domain name touchpoints in your project will be affected?</label>
+    <textarea id="scope" name="ua_kapsami" rows="3" required></textarea>
+  </div>
+  <label class="check">
+    <input type="checkbox" name="calisan_surum" required>
+    My project has a version that works today.
+  </label>
+  <div class="actions">
+    <button type="submit" class="md-button md-button--primary">Submit application</button>
+  </div>
+</form>
+
+## Frequently asked questions
+
+??? question "Do I need to build a project from scratch?"
+    No. A working project is enough. The goal is to make that project UA-ready.
+
+??? question "Must my project be finished when I apply?"
+    It does not need to be finished; it needs a **working version**. You fix the gaps during adaptation.
+
+??? question "Who decides the winner?"
+    The 20-person test jury. Each member invests their virtual balance in the projects they like; the team with the most investment wins.
+
+??? question "Will there be a certificate?"
+    Yes. Every participant receives a participation certificate. Projects that pass verification also receive the UA-Ready badge.
+
+??? question "I don't know UA. Can I apply?"
+    Yes. ICANN training, the email system introduction and mentor hours exist for exactly that.
+
+??? question "How many people can be on a team?"
+    Up to 4. A single person can apply too.
+
+See the [FAQ](sss.md) for all questions.

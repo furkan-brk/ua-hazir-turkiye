@@ -4,7 +4,7 @@ title: "Kampüs kulüp ve etkinlik platformu"
 
 # Kampüs kulüp ve etkinlik platformu
 
-<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span> <span class="badge lv-b">Başlangıç</span></div>
+<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span></div>
 
 <div class="concept-lead" markdown>
 Öğrenci kulüplerinin üyelik ve etkinlik duyurularını yönettiği bir platformu UA uyumlu hale getirmek.

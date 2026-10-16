@@ -4,7 +4,7 @@ title: "UA Inspector: a form-checking browser extension"
 
 # UA Inspector: a form-checking browser extension
 
-<div class="concept-meta"><span class="badge cat">Developer Tools</span> <span class="badge lv-i">Advanced</span></div>
+<div class="concept-meta"><span class="badge cat">Developer Tools</span></div>
 
 <div class="concept-lead" markdown>
 A browser extension that tries the email and domain fields of a web page with Turkish-character test addresses and produces a result report.

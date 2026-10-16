@@ -27,7 +27,6 @@ Student teams, startups, SMEs, software units of public institutions and the ope
 
 ## Applying
 
-!!! info "Application form"
-    The application form link will be published here when the call opens.
+The application form is [on the home page](index.md#basvuru). The project does **not** need to be finished; a working version is enough. Publishing the project on the internet is not required. Every participant receives a participation certificate.
 
 Looking for ideas? Browse the concepts in [Example projects](ornek-projeler/index.md).

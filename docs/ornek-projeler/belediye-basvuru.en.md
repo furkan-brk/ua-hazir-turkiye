@@ -4,7 +4,7 @@ title: "Municipality e-application form"
 
 # Municipality e-application form
 
-<div class="concept-meta"><span class="badge cat">Public Sector and Education</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Public Sector and Education</span></div>
 
 <div class="concept-lead" markdown>
 Make a municipal or agency portal where citizens apply work smoothly with email addresses and domains that use Turkish characters.

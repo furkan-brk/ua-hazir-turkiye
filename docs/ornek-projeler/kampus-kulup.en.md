@@ -4,7 +4,7 @@ title: "Campus clubs and events platform"
 
 # Campus clubs and events platform
 
-<div class="concept-meta"><span class="badge cat">Public Sector and Education</span> <span class="badge lv-b">Beginner</span></div>
+<div class="concept-meta"><span class="badge cat">Public Sector and Education</span></div>
 
 <div class="concept-lead" markdown>
 Make a platform where student clubs manage membership and event announcements UA-ready.

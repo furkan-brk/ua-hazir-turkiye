@@ -4,7 +4,7 @@ title: "Mobil kayıt ve e-posta doğrulama akışı"
 
 # Mobil kayıt ve e-posta doğrulama akışı
 
-<div class="concept-meta"><span class="badge cat">Mobil</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">Mobil</span></div>
 
 <div class="concept-lead" markdown>
 Flutter veya React Native uygulamasının kayıt, giriş ve e-posta doğrulama akışını Türkçe karakterli adreslerle çalışır hale getirmek.

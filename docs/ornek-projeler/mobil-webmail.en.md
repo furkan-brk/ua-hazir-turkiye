@@ -4,7 +4,7 @@ title: "Mobile email and contacts app"
 
 # Mobile email and contacts app
 
-<div class="concept-meta"><span class="badge cat">Mobile</span> <span class="badge lv-i">Advanced</span></div>
+<div class="concept-meta"><span class="badge cat">Mobile</span></div>
 
 <div class="concept-lead" markdown>
 A mobile email app that sends and receives Unicode email addresses and stores them in the contact book.

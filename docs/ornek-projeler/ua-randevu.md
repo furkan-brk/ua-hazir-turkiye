@@ -4,7 +4,7 @@ title: "Randevu ve rezervasyon sistemi"
 
 # Randevu ve rezervasyon sistemi
 
-<div class="concept-meta"><span class="badge cat">Web ve E-ticaret</span> <span class="badge lv-b">Başlangıç</span></div>
+<div class="concept-meta"><span class="badge cat">Web ve E-ticaret</span></div>
 
 <div class="concept-lead" markdown>
 Klinik, kuaför veya restoran için randevu sisteminin hatırlatma e-postalarını ve iptal bağlantılarını UA uyumlu yapmak.

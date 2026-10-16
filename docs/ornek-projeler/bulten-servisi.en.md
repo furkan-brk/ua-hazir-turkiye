@@ -4,7 +4,7 @@ title: "Newsletter and bulk email service"
 
 # Newsletter and bulk email service
 
-<div class="concept-meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Email Infrastructure</span></div>
 
 <div class="concept-lead" markdown>
 Make the subscriber management and sending pipeline of a Listmonk-style newsletter service EAI-ready.

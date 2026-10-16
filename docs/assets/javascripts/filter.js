@@ -1,4 +1,4 @@
-/* Örnek proje kartlarını kategori ve seviyeye göre süzer.
+/* Örnek proje kartlarını kategoriye göre süzer.
    Sayfada .filter-bar varsa çalışır; JS kapalıysa tüm kartlar görünür kalır. */
 (function () {
   function init() {
@@ -8,13 +8,12 @@
     var cards = document.querySelectorAll(".ccard[data-cat]");
     var sections = document.querySelectorAll("[data-section]");
     var empty = document.querySelector(".filter-empty");
-    var state = { cat: "all", lvl: "all" };
+    var state = { cat: "all" };
 
     function apply() {
       var shown = 0;
       cards.forEach(function (c) {
-        var ok = (state.cat === "all" || c.dataset.cat === state.cat) &&
-                 (state.lvl === "all" || c.dataset.lvl === state.lvl);
+        var ok = state.cat === "all" || c.dataset.cat === state.cat;
         c.hidden = !ok;
         if (ok) shown++;
       });

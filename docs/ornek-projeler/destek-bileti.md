@@ -4,7 +4,7 @@ title: "Destek bileti ve CRM sistemi"
 
 # Destek bileti ve CRM sistemi
 
-<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">E-posta Altyapısı</span></div>
 
 <div class="concept-lead" markdown>
 E-postadan bilet açan destek sisteminin gelen ve giden e-posta akışlarını UA uyumlu yapmak.

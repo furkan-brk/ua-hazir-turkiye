@@ -4,7 +4,7 @@ title: "UA-uyumlu e-ticaret mağazası"
 
 # UA-uyumlu e-ticaret mağazası
 
-<div class="concept-meta"><span class="badge cat">Web ve E-ticaret</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">Web ve E-ticaret</span></div>
 
 <div class="concept-lead" markdown>
 WooCommerce veya benzeri bir mağazanın üyelik, sipariş ve fatura akışlarını Türkçe karakterli e-posta ve alan adlarıyla çalışır hale getirmek.

@@ -27,7 +27,6 @@ title: Katılım
 
 ## Başvuru
 
-!!! info "Başvuru formu"
-    Çağrı açıldığında başvuru formu bağlantısı burada yayımlanacaktır.
+Başvuru formu [ana sayfadadır](index.md#basvuru). Proje **tamamlanmış** olmak zorunda değildir; çalışan bir sürümü olması yeterlidir. Projenin internette yayımlanması zorunlu değildir. Katılan herkes katılım sertifikası alır.
 
 Fikir mi arıyorsun? [Örnek projeler](ornek-projeler/index.md) sayfasındaki konseptlere göz at.

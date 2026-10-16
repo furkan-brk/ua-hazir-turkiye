@@ -4,7 +4,7 @@ title: "Türkçe IDN ve EAI doğrulama kütüphanesi"
 
 # Türkçe IDN ve EAI doğrulama kütüphanesi
 
-<div class="concept-meta"><span class="badge cat">Geliştirici Araçları</span> <span class="badge lv-o">Orta</span></div>
+<div class="concept-meta"><span class="badge cat">Geliştirici Araçları</span></div>
 
 <div class="concept-lead" markdown>
 Alan adı ve e-posta doğrulamasını doğru yapan, Türkçe karakter ve harf dönüşümü testleriyle gelen küçük bir açık kaynak kütüphane.

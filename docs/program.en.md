@@ -6,16 +6,16 @@ title: Program
 
 **UA-Ready Türkiye 2027 gives ICANN's "Adoption & Demonstration" UA Day event type a competition format: a compliance call for existing projects.**
 
-## How it differs from a hackathon
+## How it differs from a classic hackathon
 
 | Dimension | Classic hackathon | UA Compliance Call |
 | --- | --- | --- |
 | Project source | Built from scratch at the event | Existing, working projects |
-| Duration | 48 hours | About 8 weeks (4 weeks of adaptation) |
+| Duration | 48 hours | About 4 weeks of adaptation, then a one-day final |
 | Scope | Web application | Web, mobile, desktop, email, library, API |
-| Goal | Win votes or investment | Prove UA compliance |
+| Goal | Win over users and get investment | Prove UA compliance and win over the test jury for investment |
 | Final entry | All teams | Only teams that pass UA verification |
-| Judging | Votes or virtual investment | Expert jury, weighted scorecard |
+| Judging | Virtual investment | Virtual investment from a 20-person test jury |
 | Lasting impact | Prototype ends with the event | Real product stays UA-ready, case study published |
 
 ## Flow
@@ -26,10 +26,16 @@ flowchart LR
     B --> C[Kick-off and ICANN training]
     C --> D[Adaptation]
     D --> E{UA verification}
-    E -- Passed --> F[Final and jury]
+    E -- Passed --> F[Final: test jury investment]
     E -- Failed --> G[One fix allowed]
     G --> E
 ```
+
+## How a project enters the system
+
+- **Names with Turkish characters:** Teams add their projects to the system under names that contain Turkish characters; the test jury sees projects under those names.
+- **Mail system integration:** Projects must work with the organizers' mail system, which supports email addresses with Turkish characters.
+- **Publishing:** Putting the project on the internet is not required. Teams may publish it themselves if they wish.
 
 ## How ICANN requirements are met
 
@@ -41,4 +47,4 @@ flowchart LR
 
 ## Support
 
-Teams are not left alone: ICANN technical training, a 3-hour introduction to the email system, weekly mentor hours, a test area with Turkish characters per team and a shared communication channel.
+Teams are not left alone: ICANN technical training, a 3-hour introduction to the email system, weekly mentor hours, a test area with Turkish characters per team and a shared communication channel. Every participant receives a **participation certificate**.

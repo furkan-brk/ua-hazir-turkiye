@@ -4,7 +4,7 @@ title: "Okul-veli bilgilendirme sistemi"
 
 # Okul-veli bilgilendirme sistemi
 
-<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span> <span class="badge lv-b">Başlangıç</span></div>
+<div class="concept-meta"><span class="badge cat">Kamu ve Eğitim</span></div>
 
 <div class="concept-lead" markdown>
 Okulların velilere duyuru ve not bildirimi gönderdiği sistemi UA uyumlu yapmak.

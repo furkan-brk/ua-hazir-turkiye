@@ -4,7 +4,7 @@ title: "Mobile sign-up and email verification flow"
 
 # Mobile sign-up and email verification flow
 
-<div class="concept-meta"><span class="badge cat">Mobile</span> <span class="badge lv-o">Intermediate</span></div>
+<div class="concept-meta"><span class="badge cat">Mobile</span></div>
 
 <div class="concept-lead" markdown>
 Make the sign-up, login and email verification flow of a Flutter or React Native app work with Turkish-character addresses.

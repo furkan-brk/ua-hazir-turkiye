@@ -4,7 +4,7 @@ title: "Webmail plugin (Roundcube or similar)"
 
 # Webmail plugin (Roundcube or similar)
 
-<div class="concept-meta"><span class="badge cat">Email Infrastructure</span> <span class="badge lv-i">Advanced</span></div>
+<div class="concept-meta"><span class="badge cat">Email Infrastructure</span></div>
 
 <div class="concept-lead" markdown>
 Add EAI send/receive support and fixes to an open-source webmail application.

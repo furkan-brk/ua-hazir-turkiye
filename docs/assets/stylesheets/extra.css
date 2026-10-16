@@ -473,9 +473,6 @@
   background: var(--ua-muted);
 }
 
-.md-typeset .badge.lv-b { background: #1b7f52; }
-.md-typeset .badge.lv-o { background: #a8650a; }
-.md-typeset .badge.lv-i { background: #6a49c8; }
 .md-typeset .badge.cat {
   color: var(--md-default-fg-color);
   background: var(--ua-surface);
@@ -654,5 +651,93 @@
   .md-typeset .step-card:hover,
   .md-typeset .ccard:hover {
     transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6) Yatırım kutusu ve başvuru formu
+   -------------------------------------------------------------------------- */
+.md-typeset .invest-box {
+  margin: 1rem 0 1.8rem;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid var(--ua-border);
+  border-left: 4px solid var(--ua-amber);
+  border-radius: 12px;
+  background: var(--ua-surface);
+}
+
+.md-typeset .invest-box h3 {
+  margin-top: 0;
+}
+
+.md-typeset .invest-box ul {
+  margin-bottom: 0.4rem;
+}
+
+.md-typeset .apply-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.2rem;
+  margin: 1rem 0 2rem;
+  padding: 1.3rem;
+  border: 1px solid var(--ua-border);
+  border-radius: 14px;
+  background: var(--ua-surface);
+}
+
+.md-typeset .apply-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.md-typeset .apply-form .field.wide,
+.md-typeset .apply-form .check,
+.md-typeset .apply-form .actions {
+  grid-column: 1 / -1;
+}
+
+.md-typeset .apply-form label {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.md-typeset .apply-form input[type="text"],
+.md-typeset .apply-form input[type="url"],
+.md-typeset .apply-form select,
+.md-typeset .apply-form textarea {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--ua-border);
+  border-radius: 8px;
+}
+
+.md-typeset .apply-form input:focus-visible,
+.md-typeset .apply-form select:focus-visible,
+.md-typeset .apply-form textarea:focus-visible {
+  outline: 2px solid var(--ua-amber);
+  outline-offset: 1px;
+}
+
+.md-typeset .apply-form .check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+}
+
+.md-typeset .apply-form .hint {
+  font-size: 0.72rem;
+  color: var(--ua-muted);
+}
+
+@media (max-width: 600px) {
+  .md-typeset .apply-form {
+    grid-template-columns: 1fr;
+    padding: 1rem;
   }
 }
