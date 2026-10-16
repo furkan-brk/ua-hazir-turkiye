@@ -1,8 +1,6 @@
 site_name: UA-Hazır Türkiye 2027
 site_description: Var olan projeleri Evrensel Kabul (Universal Acceptance) uyumlu hale getirme yarışması
 site_url: !ENV [SITE_URL, 'https://furkan-brk.github.io/ua-hazir-turkiye/']
-repo_name: furkan-brk/ua-hazir-turkiye
-repo_url: https://github.com/furkan-brk/ua-hazir-turkiye
 copyright: UA-Hazır Türkiye 2027 · Evrensel Kabul Uyum Çağrısı
 
 theme:
